@@ -1,0 +1,35 @@
+import victoria.*
+
+test "El presupuesto base del tenis es 215" {
+	assert.equals(215, tenis.presupuestoBase())
+}
+
+test "El presupuesto base del judo es 480" {
+	assert.equals(480, judo.presupuestoBase())
+}
+
+test "el costo de una raqueta para victoria es 2200" {
+	assert.equals(2200,raqueta.costo(victoria))
+} 
+
+test "el costo de una raqueta para victoria a los 40 anios es 3000" {
+	victoria.edad(40)
+	assert.equals(3000,raqueta.costo(victoria))
+} 
+
+test "el costo de un traje de judo para victoria es 87.5" {
+	assert.equals(87.5,traje.costo(victoria))
+} 
+
+test "el presupuesto para victoria es 3215" {
+	assert.equals(3215, victoria.presupuesto())
+}
+
+test "el presupuesto para victoria estilo Pareto es 1355" {
+	victoria.edad(30)
+	victoria.altura(1.5)
+	victoria.disciplina(judo)
+	victoria.elemento(traje)
+	assert.equals(1355, victoria.presupuesto())
+}
+//Victoria se quiere parecer a Pareto, se hace pequeña, practica judo y por lo tanto necesita un traje de judo. Además, tiene 4 entrenadores.
