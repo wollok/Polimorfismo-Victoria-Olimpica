@@ -11,8 +11,8 @@ De victoria se sabe su edad, su altura, la disciplina que practica y un elemento
 Su presupuesto sale de la suma entre el presupuesto propio, más el presupuesto base que demanda la disciplina que practica.
 
 El presupuesto base de las disciplinas existentes es:
-- En tenis (canchas, iluminación, pelotas, etc:.), cuesta $200 más $3 por cada hincha de tenis que haya. 
-- El Judo (doboks, gimnasios, etc.), cuesta $160 por la cantidad de medallas ganadas en la historia del Judo 
+- En tenis (canchas, iluminación, pelotas, etc:.), cuesta $200 más $3 por cada hincha de tenis que haya, inicialmente 5. 
+- El Judo (doboks, gimnasios, etc.), cuesta $160 por la cantidad de medallas ganadas en la historia del Judo, que actualmente son 3. 
 
 Se sabe que el presupuesto del atleta depende de la cantidad de entrenadores que tiene por lo que el Comite Olímpico dice que hay que pagarle a cada uno, a lo que se suma el costo del elemento que utiliza.
 - El costo de una raqueta es alto, son 100$ por cada año del tenista, pero sin superar los 3000$,
