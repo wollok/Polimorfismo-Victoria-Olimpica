@@ -32,4 +32,3 @@ test "el presupuesto para victoria estilo Pareto es 1355" {
 	victoria.elemento(traje)
 	assert.equals(1355, victoria.presupuesto())
 }
-//Victoria se quiere parecer a Pareto, se hace pequeña, practica judo y por lo tanto necesita un traje de judo. Además, tiene 4 entrenadores.
